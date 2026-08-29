@@ -1,0 +1,59 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "john@example.com",
+      "password_hash": "acd4bc506498d0c4927801ad97962c00$ab14a1f03a5b6185c743b52546876e662dabaa189d0da3c8e607e652f997fb47",
+      "name": "John Seeker",
+      "role": "job_seeker",
+      "created_at": "2026-04-29T16:11:43.451036",
+      "updated_at": "2026-04-29T16:11:43.452363"
+    },
+    {
+      "id": 2,
+      "email": "alice@example.com",
+      "password_hash": "416763feaabe9f108b3445c7afac30ed$460bcf665e4da2e83989d3da651454506385e07aa1476988bf427c3689faab50",
+      "name": "Alice Seeker",
+      "role": "job_seeker",
+      "created_at": "2026-04-29T16:11:43.615746",
+      "updated_at": "2026-04-29T16:11:43.615959"
+    },
+    {
+      "id": 3,
+      "email": "recruitment@company.com",
+      "password_hash": "1efa639e3ca9a03602c27219ce70e67f$d7643cdc006de83a461506914c12f20cf49b026eaca45162047f4749f20c0e73",
+      "name": "Bob Recruiter",
+      "role": "recruiter",
+      "created_at": "2026-04-29T16:11:43.763445",
+      "updated_at": "2026-04-29T16:11:43.763685"
+    },
+    {
+      "id": 4,
+      "email": "hr@techcorp.com",
+      "password_hash": "ac6f898ee977e3a69f1c4f111ffa1916$0a9132d7a4a49b076d392b0bfccb95d0b00f260bc79bd180716a552c9b313909",
+      "name": "Sarah Recruiter",
+      "role": "recruiter",
+      "created_at": "2026-04-29T16:11:43.923850",
+      "updated_at": "2026-04-29T16:11:43.924128"
+    },
+    {
+      "email": "zain@example.com",
+      "password_hash": "1096bfafc8a1eefa583d5a3757ec2515$d81ba7d2ffd8a6c14b504e467724ef3249c2b1647191cec5c343590718fdd03b",
+      "role": "recruiter",
+      "name": "zain",
+      "created_at": "2026-06-10T16:59:22.149411",
+      "updated_at": "2026-06-10T16:59:22.149430",
+      "id": 5
+    },
+    {
+      "email": "aus@example.com",
+      "password_hash": "52bfbea7203c02cf36c0e2b26f4f1abc$ed36d648ac071a2d7ec3b900007a046407ca436b48fddd8ec82a9d16c2cc4f7c",
+      "role": "recruiter",
+      "name": "austin",
+      "created_at": "2026-06-10T17:07:51.344692",
+      "updated_at": "2026-06-10T17:07:51.344712",
+      "id": 6
+    }
+  ],
+  "last_id": 6
+}

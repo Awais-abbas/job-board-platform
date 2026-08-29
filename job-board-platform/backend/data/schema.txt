@@ -1,0 +1,76 @@
+"""
+DATABASE SCHEMA & DATA STRUCTURE
+
+Job Board Platform - Dummy Data Schema
+========================================
+
+## USERS TABLE
+{
+    "id": int,
+    "email": string,
+    "password_hash": string (hashed with salt),
+    "name": string,
+    "role": "job_seeker" | "recruiter",
+    "created_at": timestamp,
+    "updated_at": timestamp
+}
+
+## PROFILES TABLE
+{
+    "id": int,
+    "user_id": int (foreign key to users),
+    "role": "job_seeker" | "recruiter",
+    "bio": string,
+    "location": string,
+    "website": string,
+    "cv_path": string (path to uploaded CV file),
+    "company": string (for recruiters),
+    "position": string (for job seekers),
+    "skills": [string],
+    "experience_years": int,
+    "education": [{degree: string, field: string, school: string}],
+    "created_at": timestamp,
+    "updated_at": timestamp
+}
+
+## JOBS TABLE
+{
+    "id": int,
+    "recruiter_id": int (foreign key to users),
+    "title": string,
+    "description": string,
+    "required_skills": [string],
+    "experience_level": "entry" | "junior" | "mid" | "senior" | "lead" | "principal",
+    "salary_min": int,
+    "salary_max": int,
+    "status": "active" | "closed" | "archived",
+    "applicants_count": int,
+    "created_at": timestamp,
+    "updated_at": timestamp
+}
+
+## APPLICATIONS TABLE
+{
+    "id": int,
+    "user_id": int (foreign key to users),
+    "job_id": int (foreign key to jobs),
+    "status": "pending" | "accepted" | "rejected",
+    "resume_used": string (path to specific resume version used),
+    "applied_at": timestamp,
+    "reviewed_at": timestamp
+}
+
+## DATA STORAGE
+- Currently using JSON files in backend/data/
+- Files: users.json, jobs.json, applications.json, profiles.json
+- Migration path: MongoDB Atlas (will add later)
+
+## AUTHENTICATION
+- Passwords hashed with PBKDF2-SHA256 with random salt
+- Session-based authentication using Flask sessions
+- Credentials: include (cookies sent with every request)
+
+## API RATE LIMITING
+- Not implemented yet (can be added for production)
+- Currently no request throttling
+"""

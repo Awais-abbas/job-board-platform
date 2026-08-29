@@ -1,0 +1,147 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "role": "job_seeker",
+      "bio": "Passionate Python developer with 3 years of experience",
+      "location": "San Francisco, CA",
+      "website": "johnseeker.com",
+      "cv_path": null,
+      "company": "",
+      "position": "Senior Python Developer",
+      "skills": [
+        "Python",
+        "Django",
+        "Flask",
+        "SQL",
+        "PostgreSQL",
+        "REST API"
+      ],
+      "experience_years": 3,
+      "education": [
+        {
+          "degree": "BS",
+          "field": "Computer Science",
+          "school": "UC Berkeley"
+        }
+      ],
+      "created_at": "2026-04-29T16:11:43.924359",
+      "updated_at": "2026-04-29T16:11:43.924595"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "role": "job_seeker",
+      "bio": "Frontend specialist with strong JavaScript skills",
+      "location": "New York, NY",
+      "website": "aliceseeker.dev",
+      "cv_path": null,
+      "company": "",
+      "position": "React Developer",
+      "skills": [
+        "JavaScript",
+        "React",
+        "Vue",
+        "HTML",
+        "CSS",
+        "Node.js"
+      ],
+      "experience_years": 2,
+      "education": [
+        {
+          "degree": "BS",
+          "field": "Information Technology",
+          "school": "NYU"
+        }
+      ],
+      "created_at": "2026-04-29T16:11:43.924823",
+      "updated_at": "2026-04-29T16:11:43.925040"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "role": "recruiter",
+      "bio": "Recruiting talented engineers for innovative projects",
+      "location": "Mountain View, CA",
+      "website": "company.com",
+      "cv_path": null,
+      "company": "Tech Company Inc",
+      "position": "HR Manager",
+      "skills": [
+        "Recruiting",
+        "HR",
+        "Talent Management"
+      ],
+      "experience_years": 5,
+      "education": [
+        {
+          "degree": "MBA",
+          "field": "Business Administration",
+          "school": "Stanford"
+        }
+      ],
+      "created_at": "2026-04-29T16:11:43.925195",
+      "updated_at": "2026-04-29T16:11:43.925343"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "role": "recruiter",
+      "bio": "Looking for top-tier software engineers",
+      "location": "Austin, TX",
+      "website": "techcorp.com",
+      "cv_path": null,
+      "company": "TechCorp Solutions",
+      "position": "Recruitment Lead",
+      "skills": [
+        "Recruiting",
+        "Interview",
+        "Assessment"
+      ],
+      "experience_years": 4,
+      "education": [
+        {
+          "degree": "MS",
+          "field": "Psychology",
+          "school": "University of Texas"
+        }
+      ],
+      "created_at": "2026-04-29T16:11:43.925471",
+      "updated_at": "2026-04-29T16:11:43.925592"
+    },
+    {
+      "user_id": 5,
+      "role": "recruiter",
+      "bio": "",
+      "location": "",
+      "website": "",
+      "company": "",
+      "position": "",
+      "cv_path": null,
+      "skills": [],
+      "experience_years": 0,
+      "education": [],
+      "created_at": "2026-06-10T16:59:22.152419",
+      "updated_at": "2026-06-10T16:59:22.152430",
+      "id": 5
+    },
+    {
+      "user_id": 6,
+      "role": "recruiter",
+      "bio": "",
+      "location": "",
+      "website": "",
+      "company": "",
+      "position": "",
+      "cv_path": null,
+      "skills": [],
+      "experience_years": 0,
+      "education": [],
+      "created_at": "2026-06-10T17:07:51.347948",
+      "updated_at": "2026-06-10T17:07:51.347966",
+      "id": 6
+    }
+  ],
+  "last_id": 6
+}
