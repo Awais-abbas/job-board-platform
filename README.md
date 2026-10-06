@@ -1,0 +1,2 @@
+JobIn
+JobIn is a job recommendation system specifically designed for frehsers which connect Hiring manager (recruiters with seekers). Unlike linkidin and other job platforms which are highly flooded by pro researchers and over graduated, JobIn provide a simple and robust platform for such freshers. Thanks to it's Smart AI based recommendation system to filter best aligned roles to seekers skills and knowledge.
